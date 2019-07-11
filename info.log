@@ -1,0 +1,331 @@
+2019-07-09 10:50:42 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 10:50:48 [[31merror[39m]: 	MongoDb connection error 
+2019-07-09 10:53:01 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 10:53:06 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 11:01:10 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-09 11:01:21 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-09 11:01:35 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-09 11:01:40 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-09 11:01:43 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-09 11:01:46 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-09 11:01:54 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-09 11:03:59 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-09 11:05:55 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-09 11:07:23 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-09 11:08:37 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:13:14 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:13:19 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 11:13:38 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-09 11:13:38 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-09 11:13:45 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-09 11:14:54 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-09 11:24:42 [[31merror[39m]: 	Cannot read property 'toString' of undefined 
+2019-07-09 11:25:38 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:25:51 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:25:57 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 11:26:11 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:26:59 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:27:05 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:27:11 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 11:27:37 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:27:43 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 11:27:55 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:28:00 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 11:28:30 [[31merror[39m]: 	Museum validation failed: description: Path `description` is required., location: Path `location` is required. 
+2019-07-09 11:30:37 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:30:43 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 11:30:50 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:31:14 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:31:34 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:31:44 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:31:49 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 11:32:39 [[31merror[39m]: 	Cast to ObjectId failed for value "1" at path "_id" for model "Museum" 
+2019-07-09 11:40:15 [[31merror[39m]: 	E11000 duplicate key error collection: test.museums index: slug_1 dup key: { : null } 
+2019-07-09 11:41:16 [[31merror[39m]: 	E11000 duplicate key error collection: test.museums index: slug_1 dup key: { : null } 
+2019-07-09 11:42:33 [[31merror[39m]: 	E11000 duplicate key error collection: test.museums index: slug_1 dup key: { : null } 
+2019-07-09 11:43:01 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:43:07 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 11:59:02 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:59:12 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:59:17 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 11:59:22 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:59:27 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 11:59:33 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:59:37 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:59:44 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 11:59:55 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:00:05 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:00:10 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 12:00:16 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:00:24 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:00:29 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 12:01:49 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:02:04 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:02:12 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:02:16 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:02:22 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:02:34 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:02:43 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:02:50 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:02:58 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:03:09 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:03:14 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:03:19 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 12:03:28 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:03:40 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:03:47 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:03:53 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 12:04:25 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:04:34 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:04:39 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 12:04:54 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:05:00 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 12:06:06 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:06:12 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:06:18 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 12:06:39 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:06:44 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:06:51 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:06:56 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 12:07:04 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:07:13 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:07:18 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:07:22 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:07:28 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:07:32 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:07:38 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 12:14:47 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:14:53 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 12:15:03 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:15:10 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:15:16 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 12:37:06 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-09 12:37:12 [[32minfo[39m]: 	MongoDb connected 
+2019-07-09 12:37:20 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-09 12:41:22 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-09 12:41:36 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-09 12:55:39 [[31merror[39m]: 	Unexpected token } in JSON at position 93 
+2019-07-09 12:55:58 [[31merror[39m]: 	Unexpected token } in JSON at position 93 
+2019-07-09 12:56:34 [[31merror[39m]: 	Unexpected string in JSON at position 96 
+2019-07-09 12:56:46 [[31merror[39m]: 	Unexpected string in JSON at position 96 
+2019-07-09 12:56:53 [[31merror[39m]: 	Unexpected string in JSON at position 96 
+2019-07-09 12:57:31 [[31merror[39m]: 	Unexpected string in JSON at position 96 
+2019-07-09 12:58:03 [[31merror[39m]: 	Unexpected string in JSON at position 96 
+2019-07-09 12:58:46 [[31merror[39m]: 	Unexpected string in JSON at position 96 
+2019-07-09 13:01:26 [[31merror[39m]: 	Unexpected string in JSON at position 96 
+2019-07-09 13:32:01 [[32minfo[39m]: 	MongoDb connected 
+2019-07-10 10:45:46 [[32minfo[39m]: 	MongoDb connected 
+2019-07-10 10:46:31 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-10 10:46:37 [[32minfo[39m]: 	MongoDb connected 
+2019-07-10 11:45:05 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-10 11:45:11 [[32minfo[39m]: 	MongoDb connected 
+2019-07-10 11:45:12 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:45:12 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:45:12 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:45:12 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:45:12 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:45:12 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:45:12 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:46:01 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-10 11:46:07 [[32minfo[39m]: 	MongoDb connected 
+2019-07-10 11:46:08 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:46:08 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:46:08 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:46:08 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:46:08 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:46:08 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:46:08 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:47:13 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-10 11:47:18 [[32minfo[39m]: 	MongoDb connected 
+2019-07-10 11:47:20 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:47:20 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:47:20 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:47:20 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:47:20 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:47:20 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:47:20 [[32minfo[39m]: 	An error occurred when creating a museum: ValidationError: image: Path `image` is required., coords: Path `coords` is required.! 
+2019-07-10 11:51:34 [[31merror[39m]: 	Unexpected string in JSON at position 96 
+2019-07-10 11:54:26 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-10 11:54:31 [[32minfo[39m]: 	MongoDb connected 
+2019-07-10 11:57:54 [[31merror[39m]: 	Museum validation failed: location: Path `location` is required. 
+2019-07-10 11:58:27 [[31merror[39m]: 	Museum validation failed: location: Path `location` is required. 
+2019-07-10 11:58:51 [[31merror[39m]: 	Museum validation failed: location: Path `location` is required. 
+2019-07-10 11:59:33 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-10 11:59:38 [[32minfo[39m]: 	MongoDb connected 
+2019-07-10 14:20:20 [[32minfo[39m]: 	MongoDb connected 
+2019-07-10 14:58:11 [[32minfo[39m]: 	MongoDb connected 
+2019-07-10 17:49:42 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 10:37:44 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 10:37:50 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 10:38:55 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:38:58 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-11 10:39:47 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:40:13 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-11 10:46:49 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:47:44 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:47:49 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:47:50 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:49:22 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:49:27 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:49:41 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:49:50 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:50:10 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:50:31 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:50:36 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:50:42 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:51:18 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:51:28 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:52:35 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 10:55:57 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:00:39 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:00:47 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:01:05 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:01:09 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:01:20 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:01:21 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:02:04 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:03:21 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:03:26 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:04:33 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:04:41 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:04:59 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:05:27 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:05:45 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:05:57 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:06:30 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:06:31 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:06:43 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:06:44 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:06:56 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:06:57 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:07:17 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:07:18 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:07:46 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:07:57 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-11 11:07:57 [[31merror[39m]: 	Post with id: 5d25d0babd875139247a0507 not found! 
+2019-07-11 11:08:14 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:08:21 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-11 11:11:29 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:11:36 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:11:42 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:12:05 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:12:15 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:12:20 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:12:27 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:12:32 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:12:38 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:12:44 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:12:49 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:13:00 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:13:09 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:13:17 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:13:23 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:13:35 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:13:39 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:13:56 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:14:02 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:14:11 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:14:17 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:14:22 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:14:28 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:14:33 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:14:38 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:15:53 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:15:58 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:16:58 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-11 11:16:58 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:17:05 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-11 11:21:14 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-11 11:21:14 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:21:17 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-11 11:21:17 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:21:23 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-11 11:21:23 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:21:27 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-11 11:23:53 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-11 11:23:53 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:25:10 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-11 11:25:10 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:25:31 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:25:47 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:25:52 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:25:58 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:27:40 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:29:42 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:29:57 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:30:02 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:30:09 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:30:14 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:30:20 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:30:31 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:30:34 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:30:37 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:31:36 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:31:42 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:32:09 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 11:32:14 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 11:33:13 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 11:35:39 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:35:44 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:35:56 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:36:01 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:36:29 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:36:34 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:36:41 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 11:37:34 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:37:40 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:39:02 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:39:07 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:40:46 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:41:01 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:41:18 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 11:41:22 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 11:43:34 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:43:35 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:44:06 [[31merror[39m]: 	E11000 duplicate key error collection: test.museums index: slug_1 dup key: { : "test" } 
+2019-07-11 11:44:54 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:44:54 [[31merror[39m]: 	ENOENT: no such file or directory, stat 'C:\Users\Anna\Desktop\Artevelde\herexamen\TryYourPath_v2.0-master (1)\TryYourPath_v2.0-master\webapp\src\client\build\index.html' 
+2019-07-11 11:48:02 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:48:07 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:48:35 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 11:56:50 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 11:57:56 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:58:05 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:58:20 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:58:26 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:58:37 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:58:42 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:58:50 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:59:10 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 11:59:16 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 11:59:17 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 11:59:36 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 12:00:29 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 12:00:34 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 12:00:44 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 12:05:52 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 12:05:58 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 12:09:14 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 12:09:19 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 12:09:44 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 12:09:49 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 12:11:26 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 12:11:34 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 12:11:53 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 12:11:58 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 12:12:15 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 12:13:33 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 12:13:41 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 12:13:46 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 12:13:53 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 12:20:10 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 12:20:17 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 12:20:22 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 12:20:26 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 12:22:01 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 12:22:06 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 12:22:16 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 12:24:36 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 12:24:59 [[32minfo[39m]: 	Server is running at http://127.0.0.1:8002 ! 
+2019-07-11 12:25:05 [[32minfo[39m]: 	MongoDb connected 
+2019-07-11 12:25:08 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
