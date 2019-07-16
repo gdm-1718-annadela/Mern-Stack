@@ -15,7 +15,7 @@ class OrderTicketPage extends Component {
         return (
             <React.Fragment>
                 <h1 className="hidden">Bestel Ticket</h1>
-                <form class="form">
+                {/* <form class="form">
                     <label>Museum</label>
                     <select>
                         <option>Museum</option>
@@ -34,6 +34,14 @@ class OrderTicketPage extends Component {
                     </select>
 
                     <button type="submit">Bestel ticket</button>
+                </form> */}
+                <form action="post">
+                    <input type="tekst" placeholder="name"/>
+                    <input type="tekst" placeholder="location"/>
+                    <input type="number" placeholder="latitude"/>
+                    <input type="number" placeholder="long"/>
+                    <input type="tekst" placeholder='src'/>
+                    <button type="submit">Post musea</button>
                 </form>
             </React.Fragment>
         )

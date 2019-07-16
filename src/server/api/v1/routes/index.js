@@ -16,10 +16,6 @@ import blogRouter from './blog.routes';
 import categoryRouter from './category.routes';
 import postRouter from './post.routes';
 import userRouter from './user.routes';
-import orderRouter from './order.routes';
-import museumRouter from './museum.routes';
-import companyRouter from './company.routes';
-import collectionRouter from './collection.routes';
 
 // Initialize the AuthService
 const authService = new AuthService();
@@ -31,9 +27,5 @@ blogRouter(apiV1Router, authService);
 categoryRouter(apiV1Router, authService);
 postRouter(apiV1Router, authService);
 userRouter(apiV1Router, authService);
-orderRouter(apiV1Router, authService);
-museumRouter(apiV1Router, authService);
-companyRouter(apiV1Router, authService);
-collectionRouter(apiV1Router, authService);
 
 export default apiV1Router;

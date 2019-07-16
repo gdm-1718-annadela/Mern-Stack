@@ -1,15 +1,10 @@
-import {
-    Blog, Post, User, Company, Order, Museum, Collection,
-} from './schemas';
+import { Blog, Category, Post, User } from './schemas';
 import Seeder from './seeder';
 
 export {
     Blog,
-    Company,
+    Category,
     Post,
     Seeder,
     User,
-    Order,
-    Museum,
-    Collection,
 };

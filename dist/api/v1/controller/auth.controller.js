@@ -42,7 +42,7 @@ var AuthController = function AuthController() {
                 }
 
                 if (!user) {
-                  return next(new Error("Error Auth"));
+                  return next(new Error("kkjkj"));
                 }
 
                 req.auth = {

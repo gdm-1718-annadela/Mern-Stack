@@ -11,6 +11,12 @@ Object.defineProperty(exports, "Blog", {
     return _schemas.Blog;
   }
 });
+Object.defineProperty(exports, "Category", {
+  enumerable: true,
+  get: function get() {
+    return _schemas.Category;
+  }
+});
 Object.defineProperty(exports, "Post", {
   enumerable: true,
   get: function get() {
@@ -21,24 +27,6 @@ Object.defineProperty(exports, "User", {
   enumerable: true,
   get: function get() {
     return _schemas.User;
-  }
-});
-Object.defineProperty(exports, "Company", {
-  enumerable: true,
-  get: function get() {
-    return _schemas.Company;
-  }
-});
-Object.defineProperty(exports, "Order", {
-  enumerable: true,
-  get: function get() {
-    return _schemas.Order;
-  }
-});
-Object.defineProperty(exports, "Museum", {
-  enumerable: true,
-  get: function get() {
-    return _schemas.Museum;
   }
 });
 Object.defineProperty(exports, "Seeder", {

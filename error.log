@@ -124,3 +124,20 @@
 2019-07-11 12:22:16 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
 2019-07-11 12:24:36 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
 2019-07-11 12:25:08 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 13:03:29 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 13:05:08 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 13:09:16 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 13:10:34 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-11 13:21:16 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-12 16:10:48 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-16 16:24:28 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-16 16:24:58 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-16 16:25:20 [[31merror[39m]: 	Post validation failed: categoryId: Cast to ObjectID failed for value "" at path "categoryId" 
+2019-07-16 16:51:03 [[31merror[39m]: 	Cannot read property 'lat' of undefined 
+2019-07-16 16:52:25 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-16 16:52:41 [[31merror[39m]: 	Post validation failed: categoryId: Cast to ObjectID failed for value "" at path "categoryId" 
+2019-07-16 16:53:26 [[31merror[39m]: 	Post validation failed: categoryId: Cast to ObjectID failed for value "" at path "categoryId" 
+2019-07-16 16:53:34 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-16 16:53:47 [[31merror[39m]: 	Post validation failed: categoryId: Cast to ObjectID failed for value "" at path "categoryId" 
+2019-07-16 16:54:09 [[31merror[39m]: 	Cannot read property 'find' of undefined 
+2019-07-16 16:54:29 [[31merror[39m]: 	Post validation failed: categoryId: Cast to ObjectID failed for value "" at path "categoryId" 

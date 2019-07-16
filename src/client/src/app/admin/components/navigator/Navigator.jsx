@@ -28,19 +28,9 @@ const categories = [
   {
     id: 'Develop',
     children: [
-      { id: 'Companies', icon: <PermMediaOutlinedIcon />, link: '/admin/companies' },
+      { id: 'Blogs', icon: <PermMediaOutlinedIcon />, link: '/admin/blogs' },
       { id: 'Categories', icon: <DnsRoundedIcon />, link: '/admin/categories' },
       { id: 'Posts', icon: <PeopleIcon />, link: '/admin/posts' },
-      { id: 'Users', icon: <PublicIcon/>, link: '/admin/users',},
-      { id: 'Orders', icon: <PublicIcon/>, link: '/admin/orders',},
-      { id: 'Musea', icon: <PublicIcon/>, link: '/admin/musea',},
-    ],
-  },
-  {
-    id: 'Login',
-    children: [
-      { id: 'Login', icon: <PermMediaOutlinedIcon />, link: '/login/local' },
-      { id: 'Register', icon: <DnsRoundedIcon />, link: '/register/local' },
     ],
   },
 ];
@@ -102,10 +92,10 @@ class Navigator extends Component {
   };
 
   render() {
-    const { classes, staticContext,...rest } = this.props;
+    const { classes, ...other } = this.props;
 
     return (
-      <Drawer variant="permanent" {...rest}>
+      <Drawer variant="permanent" {...other}>
         <List disablePadding>
           <ListItem className={classNames(classes.firebase, classes.item, classes.itemCategory)}>
             NMD CMS
