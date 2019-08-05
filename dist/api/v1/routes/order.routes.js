@@ -17,25 +17,25 @@ var orderController = new _controller.OrderController();
 var initializeEndpoints = function initializeEndpoints(parentRouter, authService) {
   /**
    * @swagger
-   * /api/v1/orders:
+   * /api/v1/order:
    *   get:
    *     tags:
-   *       - Orders
-   *     description: Returns all orders
+   *       - Order
+   *     description: Returns all order
    *     produces:
    *       - application/json
    *     responses:
    *       200:
-   *         description: An array of orders
+   *         description: An array of order
    */
-  parentRouter.get('/orders', orderController.index);
+  parentRouter.get('/order', orderController.index);
   /**
    * @swagger
-   * /api/v1/orders/create:
+   * /api/v1/order/create:
    *   get:
    *     tags:
    *       - Order
-   *     description: Returns specific viewmodel such as orders
+   *     description: Returns specific viewmodel such as order
    *     produces:
    *       - application/json
    *     responses:
@@ -43,10 +43,10 @@ var initializeEndpoints = function initializeEndpoints(parentRouter, authService
    *         description: Create post
    */
 
-  parentRouter.get('/orders/create/', orderController.create);
+  parentRouter.get('/order/create/', orderController.create);
   /**
    * @swagger
-   * /api/v1/orders/{id}:
+   * /api/v1/order/{id}:
    *   get:
    *     tags:
    *       - Order
@@ -64,10 +64,10 @@ var initializeEndpoints = function initializeEndpoints(parentRouter, authService
    *         description: Get post by id
    */
 
-  parentRouter.get('/orders/:id', orderController.show);
+  parentRouter.get('/order/:id', orderController.show);
   /**
    * @swagger
-   * /api/v1/orders:
+   * /api/v1/order:
    *   post:
    *     tags:
    *       - Order
@@ -84,14 +84,14 @@ var initializeEndpoints = function initializeEndpoints(parentRouter, authService
    *         description: Return saved post
    */
 
-  parentRouter.post('/orders', orderController.store);
+  parentRouter.post('/order', orderController.store);
   /**
    * @swagger
-   * /api/v1/orders/{id}/edit:
+   * /api/v1/order/{id}/edit:
    *   get:
    *     tags:
    *       - Order
-   *     description: Returns specific viewmodel such as post, orders
+   *     description: Returns specific viewmodel such as post, order
    *     produces:
    *       - application/json
    *     parameters:
@@ -105,10 +105,10 @@ var initializeEndpoints = function initializeEndpoints(parentRouter, authService
    *         description: Edit order by id
    */
 
-  parentRouter.get('/orders/:id/edit', orderController.edit);
+  parentRouter.get('/order/:id/edit', orderController.edit);
   /**
    * @swagger
-   * /api/v1/orders/{id}:
+   * /api/v1/order/{id}:
    *   put:
    *     tags:
    *       - Order
@@ -130,10 +130,10 @@ var initializeEndpoints = function initializeEndpoints(parentRouter, authService
    *         description: Update order
    */
 
-  parentRouter.put('/orders/:id', orderController.update);
+  parentRouter.put('/order/:id', orderController.update);
   /**
    * @swagger
-   * /api/v1/orders/{id}:
+   * /api/v1/order/{id}:
    *   delete:
    *     tags:
    *       - Order
@@ -151,7 +151,7 @@ var initializeEndpoints = function initializeEndpoints(parentRouter, authService
    *         description: Delete order
    */
 
-  parentRouter.delete('/orders/:id', orderController.destroy);
+  parentRouter.delete('/order/:id', orderController.destroy);
 };
 
 var _default = initializeEndpoints;

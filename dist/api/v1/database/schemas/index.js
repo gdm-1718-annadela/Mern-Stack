@@ -29,6 +29,12 @@ Object.defineProperty(exports, "User", {
     return _user.default;
   }
 });
+Object.defineProperty(exports, "Museum", {
+  enumerable: true,
+  get: function get() {
+    return _museum.default;
+  }
+});
 
 var _blog = _interopRequireDefault(require("./blog.schema"));
 
@@ -37,3 +43,5 @@ var _category = _interopRequireDefault(require("./category.schema"));
 var _post = _interopRequireDefault(require("./post.schema"));
 
 var _user = _interopRequireDefault(require("./user.schema"));
+
+var _museum = _interopRequireDefault(require("./museum.schema"));

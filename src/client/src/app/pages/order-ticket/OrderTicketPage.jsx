@@ -2,6 +2,8 @@
 Import extenal libraries
 */
 import React, { Component } from 'react';
+import Input from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button';
 
 /*
 Import internal libraries
@@ -10,6 +12,45 @@ import Api from '../../services';
 import PostsList from '../../components/posts-list';
 
 class OrderTicketPage extends Component {
+
+    constructor (props) {
+        super (props);
+        this.state={
+            name: "",
+            location: "",
+            lat: "",
+            long: "",
+            image: "",
+        }
+
+        this.handleFormSubmit = this.handleFormSubmit.bind(this);
+        this.handleChange = this.handleChange.bind(this);
+    }
+
+    handleChange(e) {
+        this.setState({
+            [e.target.name]:e.target.value
+        });
+    }
+
+    handleFormSubmit(e) {
+        e.preventDefault();
+        let museaData = this.state;
+        console.log( museaData);
+    
+        fetch('/api/v1/musea',{
+            method: "POST",
+            body: JSON.stringify(museaData),
+            headers: {
+              'Accept': 'application/json',
+              'Content-Type': 'application/json'
+            },
+          }).then(response => {
+            response.json().then(data =>{
+              console.log("Successful" + data);
+            })
+        })
+    }
     render() {
         // const { posts } = this.state;
         return (
@@ -35,13 +76,13 @@ class OrderTicketPage extends Component {
 
                     <button type="submit">Bestel ticket</button>
                 </form> */}
-                <form action="post">
-                    <input type="tekst" placeholder="name"/>
-                    <input type="tekst" placeholder="location"/>
-                    <input type="number" placeholder="latitude"/>
-                    <input type="number" placeholder="long"/>
-                    <input type="tekst" placeholder='src'/>
-                    <button type="submit">Post musea</button>
+                <form onSubmit={this.handleFormSubmit.bind(this)}>
+                    <input value={this.state.name} type="tekst" placeholder="name" name="name" onChange={this.handleChange.bind(this)}/>
+                    <input value={this.state.location} type="tekst" placeholder="location" name="location" onChange={this.handleChange.bind(this)}/>
+                    <input value={this.state.lat} type="number" placeholder="latitude" name="lat" onChange={this.handleChange.bind(this)}/>
+                    <input value={this.state.long} type="number" placeholder="long" name="long" onChange={this.handleChange.bind(this)}/>
+                    <input value={this.state.image} type="tekst" placeholder='src' name="image" onChange={this.handleChange.bind(this)} />
+                    <input type="submit" value="Submit" />
                 </form>
             </React.Fragment>
         )

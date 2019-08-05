@@ -35,6 +35,18 @@ Object.defineProperty(exports, "UserController", {
     return _user.default;
   }
 });
+Object.defineProperty(exports, "MuseumController", {
+  enumerable: true,
+  get: function get() {
+    return _museum.default;
+  }
+});
+Object.defineProperty(exports, "OrderController", {
+  enumerable: true,
+  get: function get() {
+    return _order.default;
+  }
+});
 
 var _auth = _interopRequireDefault(require("./auth.controller"));
 
@@ -45,3 +57,7 @@ var _category = _interopRequireDefault(require("./category.controller"));
 var _post = _interopRequireDefault(require("./post.controller"));
 
 var _user = _interopRequireDefault(require("./user.controller"));
+
+var _museum = _interopRequireDefault(require("./museum.controller"));
+
+var _order = _interopRequireDefault(require("./order.controller"));

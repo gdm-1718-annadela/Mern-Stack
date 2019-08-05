@@ -21,6 +21,10 @@ var _post = _interopRequireDefault(require("./post.routes"));
 
 var _user = _interopRequireDefault(require("./user.routes"));
 
+var _museum = _interopRequireDefault(require("./museum.routes"));
+
+var _order = _interopRequireDefault(require("./order.routes"));
+
 /*
 Import the external libraries:
 - express
@@ -42,5 +46,7 @@ var apiV1Router = _express.default.Router();
 (0, _category.default)(apiV1Router, authService);
 (0, _post.default)(apiV1Router, authService);
 (0, _user.default)(apiV1Router, authService);
+(0, _museum.default)(apiV1Router, authService);
+(0, _order.default)(apiV1Router, authService);
 var _default = apiV1Router;
 exports.default = _default;

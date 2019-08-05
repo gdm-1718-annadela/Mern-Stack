@@ -121,9 +121,10 @@ class MuseaTable extends Component {
         if(results.mode && results.mode === 'delete') {
           this.loadMusea();
         } else {
-          const museum = results.museum;
+          const museum = results;
           const i = this.state.musea.findIndex((obj, index, array) => {
-            return obj._id === museum._id;
+            // console.log(museum._id);
+            // return obj._id === museum._id;
           });
           const musea = this.state.musea;
           musea[i] = museum;
@@ -174,9 +175,9 @@ class MuseaTable extends Component {
                 <TableRow key={museum.id}>
                   <TableCell>{museum.name}</TableCell>
                   <TableCell>{museum.location}</TableCell>
-                  <TableCell>{museum.coords.lat}</TableCell>
-                  <TableCell>{museum.coords.long}</TableCell>
-                  <TableCell>{museum.img}</TableCell>
+                  <TableCell>{museum.lat}</TableCell>
+                  <TableCell>{museum.long}</TableCell>
+                  <TableCell>{museum.image}</TableCell>
                   <TableCell>
                     <IconButton
                       component={Link} to={ `/admin/musea/${museum.id}/edit`}>

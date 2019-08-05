@@ -20,8 +20,24 @@ var OrderSchema = new Schema({
     required: true,
     max: 128
   },
-  amount: {
-    type: Number,
+  firsname: {
+    type: String,
+    required: true,
+    max: 128
+  },
+  validationCode: {
+    type: String,
+    required: true,
+    max: 200
+  },
+  sortRoute: {
+    type: String,
+    required: true,
+    max: 100
+  },
+  museumId: {
+    type: Schema.Types.ObjectId,
+    ref: 'Museum',
     required: true
   },
   slug: {
@@ -36,16 +52,6 @@ var OrderSchema = new Schema({
   },
   deleted_at: {
     type: Date,
-    required: false
-  },
-  userId: {
-    type: Schema.Types.ObjectId,
-    ref: 'User',
-    required: false
-  },
-  museumId: {
-    type: Schema.Types.ObjectId,
-    ref: 'Museum',
     required: false
   }
 }, {

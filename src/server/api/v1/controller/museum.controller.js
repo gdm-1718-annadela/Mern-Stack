@@ -68,10 +68,8 @@ class MuseumController {
             const museumCreate = new Museum({
                 name: req.body.name,
                 location: req.body.location,
-                coords: {
-                    lat: req.body.coords.lat,
-                    long: req.body.coords.long,
-                },
+                lat: req.body.lat,
+                long: req.body.long,
                 image: req.body.image,
             });
             const museum = await museumCreate.save();

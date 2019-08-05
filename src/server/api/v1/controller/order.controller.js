@@ -24,11 +24,11 @@ class OrderController {
                 const options = {
                     page: parseInt(skip, 10) || 1,
                     limit: parseInt(limit, 10) || 10,
-                    sort: { created_at: -1 },
+                    sort: { name: 1 },
                 };
                 orders = await Order.paginate({}, options);
             } else {
-                orders = await Order.find().sort({ created_at: -1 }).exec();
+                orders = await Order.find().sort({ name: 1 }).exec();
             }
 
             if (orders === undefined || orders === null) {
@@ -66,9 +66,11 @@ class OrderController {
     store = async (req, res, next) => {
         try {
             const orderCreate = new Order({
-                title: req.body.title,
-                synopsis: req.body.synopsis,
-                body: req.body.body,
+                name: req.body.name,
+                location: req.body.location,
+                lat: req.body.lat,
+                long: req.body.long,
+                image: req.body.image,
             });
             const order = await orderCreate.save();
             return res.status(201).json(order);

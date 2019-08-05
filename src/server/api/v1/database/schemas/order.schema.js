@@ -7,14 +7,15 @@ const { Schema } = mongoose;
 const OrderSchema = new Schema(
     {
         name: { type: String, required: true, max: 128 },
-        amount: { type: Number, required: true },
+        firsname: { type: String, required: true, max: 128 },
+        validationCode: { type: String, required: true, max: 200 },
+        sortRoute: { type: String, required: true, max: 100 },
+        museumId: { type: Schema.Types.ObjectId, ref: 'Museum', required: true },
         slug: {
             type: String, lowercase: true, unique: true, required: true,
         },
         published_at: { type: Date, required: false },
         deleted_at: { type: Date, required: false },
-        userId: { type: Schema.Types.ObjectId, ref: 'User', required: false },
-        museumId: { type: Schema.Types.ObjectId, ref: 'Museum', required: false },
     },
     {
         toJSON: { virtuals: true },

@@ -29,6 +29,18 @@ Object.defineProperty(exports, "User", {
     return _schemas.User;
   }
 });
+Object.defineProperty(exports, "Museum", {
+  enumerable: true,
+  get: function get() {
+    return _schemas.Museum;
+  }
+});
+Object.defineProperty(exports, "Order", {
+  enumerable: true,
+  get: function get() {
+    return _schemas.Order;
+  }
+});
 Object.defineProperty(exports, "Seeder", {
   enumerable: true,
   get: function get() {

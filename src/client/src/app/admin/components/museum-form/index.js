@@ -56,7 +56,11 @@ class MuseumForm extends Component {
     state = {
         museum:{ name: "", location: "", lat: "", long: "", image: "", },
     };
-
+    componentWillMount(){
+        if(this.props.museumId) {
+            this.loadMuseum(this.props.museumId);
+        }
+    }
     loadMuseum = async (museumId) => {
         try {
             const options = {
@@ -84,6 +88,7 @@ class MuseumForm extends Component {
         if (museumId) {  
             this.updateMuseum(museumId, values);
         } else {
+            console.log('musea is aan het opslaan')
             this.saveMuseum(values);
         }
         

@@ -38,7 +38,7 @@ class HomePage extends Component {
     render = () => {
         return(
             <React.Fragment>
-                <h1>Test</h1>
+                <h1>Name website</h1>
             </React.Fragment>
         )
     }

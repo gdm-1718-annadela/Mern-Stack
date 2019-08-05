@@ -23,10 +23,14 @@ var MuseumSchema = new Schema({
   location: {
     type: String,
     required: true,
-    max: 128
+    max: 500
   },
-  description: {
-    type: String,
+  lat: {
+    type: Number,
+    required: true
+  },
+  long: {
+    type: Number,
     required: true
   },
   image: {

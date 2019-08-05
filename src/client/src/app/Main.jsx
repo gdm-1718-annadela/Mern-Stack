@@ -12,7 +12,7 @@ import { RouteWithLayout } from './utilities';
 /*
 Layout
 */
-import { LoginLayout, PageLayout } from './layouts';
+import { LoginLayout, PageLayout, SignupLayout } from './layouts';
 import { AdminLayout } from './admin/layouts';
 
 /*
@@ -25,6 +25,7 @@ import NewsPage from './pages/news';
 import PostDetailPage from './pages/post-detail';
 import OrderTicketPage from './pages/order-ticket';
 import OrderTicketDetailPage from './pages/order-ticket-detail';
+import SignupPage from './pages/signup';
 
 /*
 Import styling
@@ -44,6 +45,8 @@ class Main extends Component {
           <RouteWithLayout exact path='/order-ticket/:id' layout={ PageLayout } component={ OrderTicketDetailPage }/>
           <RouteWithLayout path="/login" layout={ LoginLayout } component={ LoginPage }></RouteWithLayout>
           <RouteWithLayout path="/admin" layout={ AdminLayout } component={ AdminPage }></RouteWithLayout>
+          <RouteWithLayout path="/signup" layout={ SignupLayout } component={ SignupPage }></RouteWithLayout>
+
         </Switch>
       </div>
     );

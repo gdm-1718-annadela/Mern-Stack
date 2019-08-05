@@ -56,7 +56,7 @@ var MuseumController = function MuseumController() {
                 page: parseInt(skip, 10) || 1,
                 limit: parseInt(limit, 10) || 10,
                 sort: {
-                  created_at: -1
+                  name: 1
                 }
               };
               _context.next = 7;
@@ -70,7 +70,7 @@ var MuseumController = function MuseumController() {
             case 10:
               _context.next = 12;
               return _database.Museum.find().sort({
-                created_at: -1
+                name: 1
               }).exec();
 
             case 12:
@@ -169,9 +169,11 @@ var MuseumController = function MuseumController() {
             case 0:
               _context3.prev = 0;
               museumCreate = new _database.Museum({
-                title: req.body.title,
-                synopsis: req.body.synopsis,
-                body: req.body.body
+                name: req.body.name,
+                location: req.body.location,
+                lat: req.body.lat,
+                long: req.body.long,
+                image: req.body.image
               });
               _context3.next = 4;
               return museumCreate.save();
