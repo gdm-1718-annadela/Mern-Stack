@@ -1,6 +1,7 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button , Image, ScrollView, Dimensions  } from 'react-native';
+import { StyleSheet, Text, View, Button, ScrollView, Dimensions, Image  } from 'react-native';
 import api from '../config/api';
+import Card from '../components/Card'
 
 
 
@@ -31,8 +32,9 @@ class HomeScreen extends React.Component {
     renderMusea() {
         return this.state.data.map((musea, key) =>{
             return(
-                <View key={key}>
-                    <Text>{musea['name']}</Text>
+                
+                <View style={styles.museum} key={key}>
+                    <Text style={styles.test}>{musea['name']}</Text>
                     <Text >{musea['location']}</Text>
                 </View>
             )
@@ -41,11 +43,8 @@ class HomeScreen extends React.Component {
     render(){
         return (
             <View>
-                <View style={styles.header}>
-                <Text style={styles.title}>Musea</Text>
-                </View>
+                <Text style={styles.header}>Musea</Text>
                 {this.renderMusea()}
-            <Text>Hi</Text>
             </View>
             
         );
@@ -66,12 +65,16 @@ const styles = StyleSheet.create({
         color: 'white',
     },
     header: {
-        flex: 1,
         backgroundColor: '#47054E',
         height: 200,
-        width: width,
-        overflow: 'hidden',
-        position: 'relative',
-        borderBottomLeftRadius: 20,
+        fontSize: 30,
+        color: 'white',
+        borderBottomLeftRadius: 200
+    },
+    museum:{
+        borderRadius: 4,
+        borderWidth: 0.5,
+        borderColor: '#d6d7da',
+        height: 50,
     }
   });

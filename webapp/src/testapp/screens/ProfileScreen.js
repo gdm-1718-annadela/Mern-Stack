@@ -7,11 +7,6 @@ class ProfileScreen extends React.Component {
       return (
         <View style={styles.container}>
           <Text>Profiel</Text>
-          <View style={styles.profile}>
-            <Text>Simon Demeyere</Text>
-            <Image source={require('../assets/profile-placeholder_150_250.jpg')}/>
-            <Text>Simodeme2@student.arteveldehs.be</Text>
-          </View>
         </View>
       );
     }

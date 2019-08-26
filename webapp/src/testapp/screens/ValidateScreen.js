@@ -4,7 +4,8 @@ import { StyleSheet, Text, View, Button, TextInput,TouchableOpacity } from 'reac
 class ValidateScreen extends React.Component {
   state = {
     data: [],
-    text: ''
+    text: '',
+    ticket: ''
     }
 
 getTicket() {
@@ -29,18 +30,13 @@ handleText = (newtext) => {
   this.setState({text: newtext})
 }
 
-result(order, text){
-  console.log(order)
-  // return(
-  //   order['name']==text?<Text>{'Dag '+ order['firstname']}</Text>:null
-  // )
-}
 
 renderTicket(text) {
   // console.log(text)
   return this.state.data.map((order, key) =>{
     // console.log(text === order['name'])
       this.result(order, text)
+      order['name']==text?console.log(order['name']):null
     })
       
   }
@@ -56,6 +52,7 @@ renderTicket(text) {
                }>
                <Text> Submit </Text>
             </TouchableOpacity>
+            {this.result}
         </View>
       );
     }

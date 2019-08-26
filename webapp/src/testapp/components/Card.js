@@ -4,6 +4,7 @@ import { withNavigation } from 'react-navigation';
 
 class Card extends React.Component {
     render () {
+        const musea = {musea}
         return (
             <View style={styles.card}>
                 <Image source={require('../assets/placeholder_250_150.jpg')}/>

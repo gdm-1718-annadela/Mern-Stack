@@ -9,7 +9,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import HomeScreen from './screens/HomeScreen'
 import ProfileScreen from './screens/ProfileScreen.js'
 import ValidateScreen from './screens/ValidateScreen.js'
-import OrderScreen from './screens/OrderScreen'
+import CollectionScreen from './screens/CollectionScreen.js'
 
 // const MainNavigator = createStackNavigator({
 //   Home: {screen: HomeScreen},
@@ -58,12 +58,12 @@ const TabNavigator = createMaterialBottomTabNavigator(
         barStyle: { backgroundColor: '#67baf6' },
       }
     },
-    Order: { screen: OrderScreen,
+    Collections: { screen: CollectionScreen,
       navigationOptions:{
-        tabBarLabel:'Order',
+        tabBarLabel:'Collection',
         tabBarIcon: ({ tintColor }) => (
           <View>
-              <Icon style={[{color: tintColor}]} size={25} name={'ios-cart'}/>
+              <Icon style={[{color: tintColor}]} size={25} name={'ios-images'}/>
           </View>
         ),
       }
