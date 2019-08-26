@@ -11,12 +11,10 @@
     "@types/react-select": "^3.0.2",
     "axios": "^0.19.0",
     "bcrypt": "^3.0.6",
-    "body-parser": "^1.18.3",
     "chalk": "^2.4.2",
     "cors": "^2.8.5",
     "dotenv": "^7.0.0",
     "ejs": "^2.6.1",
-    "express": "^4.16.4",
     "faker": "^4.1.0",
     "http": "^0.0.0",
     "http-proxy-middleware": "^0.19.1",
@@ -35,7 +33,9 @@
     "swagger-jsdoc": "^3.2.8",
     "swagger-ui-express": "^4.0.2",
     "uuidv4": "^3.0.1",
-    "winston": "^3.2.1"
+    "winston": "^3.2.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
@@ -74,5 +74,6 @@
     "start:all": "concurrently \"yarn server:start && yarn client:start\"",
     "start:build": "cross-env NODE_ENV=Production NODE_SERVER_PORT=8082 node ./dist/index.js",
     "git:pull": "git pull && cd ./src/client && git pull"
-  }
+  },
+  "proxy": "http://localhost:8002"
 }

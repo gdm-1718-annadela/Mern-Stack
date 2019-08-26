@@ -162,7 +162,9 @@ class CollectionsTable extends Component {
                 <TableCell>Title</TableCell>
                 <TableCell>Body</TableCell>
                 <TableCell>Artis Name</TableCell>
+                <TableCell>Image</TableCell>
                 <TableCell>Museum</TableCell>
+
                 <TableCell>Actions</TableCell>
               </TableRow>
             </TableHead>
@@ -172,7 +174,8 @@ class CollectionsTable extends Component {
                   <TableCell>{collection.title}</TableCell>
                   <TableCell>{collection.body}</TableCell>
                   <TableCell>{collection.artistName}</TableCell>
-                  <TableCell>{collection.museumId}</TableCell>
+                  <TableCell>{collection.image}</TableCell>
+                  <TableCell>{collection.museum && collection.museum.name}</TableCell>
                   <TableCell>
                     <IconButton
                       component={Link} to={ `/admin/collections/${collection.id}/edit`}>

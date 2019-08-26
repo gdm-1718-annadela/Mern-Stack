@@ -15,6 +15,21 @@ class Api {
         return await response.json();
     }
 
+    static findOneOrder = async (id) => {
+        const response = await fetch(`${this.URL}/order/${id}`);
+        return await response.json();
+    }
+
+
+    static findAllCollections = async (queryParams=null) => {
+        let url = `${this.URL}/collections`;
+        if (queryParams !== null) {
+            url += (url.indexOf('?') === -1 ? '?' : '&') + this.queryParams(queryParams);
+        }   
+        const response = await fetch(`${url}`);
+        return await response.json();
+    }
+
      static findAllMusea = async (queryParams=null) => {
         let url = `${this.URL}/musea`;
         if (queryParams !== null) {

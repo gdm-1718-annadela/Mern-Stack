@@ -1,23 +1,43 @@
+.actioncall {
+    border: solid black 1px;
+    position: absolute;
+    right: 5vw;
+    > li {
+        color: black;
+    }
+}
+
 .nav {
-    background-color: $blue_color;
+    // background-color: $blue_color;
 
     > ul {
         display: flex;
         list-style-type: none;
         margin: 0;
+        background-color: transparent;
+        justify-content: space-between;
+        width: 50vw;
+        margin-top: 20px;
+        animation: mymove 2s;
 
-        :hover {
-            background-color: $hover_color;
+        :hover{
+            color: blue;
         }
+
 
         > a {
             padding: 16px;
             text-decoration: none;
 
-            
-            > li {
-                color: $background_color;
-            }
         }
     }
+}
+
+
+
+
+
+@keyframes mymove {
+0%   {opacity: 0; margin: 0; color: white;}
+100% {opacity: 1; color: black;}
 }

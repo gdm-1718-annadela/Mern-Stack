@@ -67,6 +67,7 @@ class CollectionController {
                 title: req.body.title,
                 body: req.body.body,
                 artistName: req.body.artistName,
+                image: req.body.image,
                 museumId: req.body.museumId,
             });
             const collection = await collectionCreate.save();

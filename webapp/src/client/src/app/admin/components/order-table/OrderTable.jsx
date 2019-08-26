@@ -164,7 +164,7 @@ class OrderTable extends Component {
                 <TableCell>Firstname</TableCell>
                 <TableCell>ValidationCode</TableCell>
                 <TableCell>Amount</TableCell>
-                <TableCell>MuseumId</TableCell>
+                <TableCell>Museum</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -174,7 +174,7 @@ class OrderTable extends Component {
                   <TableCell>{order.firstname}</TableCell>
                   <TableCell>{order.validationCode}</TableCell>
                   <TableCell>{order.amount}</TableCell>
-                  <TableCell>{order.museumId}</TableCell>
+                  <TableCell>{order.museum && order.museum.name}</TableCell>
                   {/* <TableCell>
                     <IconButton
                       component={Link} to={ `/admin/order/${order.id}/edit`}>

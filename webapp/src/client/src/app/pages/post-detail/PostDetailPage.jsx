@@ -14,6 +14,7 @@ class PostDetailPage extends Component {
         museum: null,
     };
 
+
     componentWillMount() {
         this.loadPost(this.props.match.params.id);
     }
@@ -33,7 +34,6 @@ class PostDetailPage extends Component {
 
     render() {
         const { museum } = this.state;
-        console.log(museum);
         return (
             <React.Fragment>
                 <MuseumDetail data={museum} />

@@ -37,7 +37,7 @@ class Form extends Component {
 
     render() {
         const {
-            values: { title, body, artistName, museumId, },
+            values: { title, body, artistName, image, museumId, },
             errors,
             touched,
             handleChange,
@@ -92,6 +92,20 @@ class Form extends Component {
                 rows="4"
                 value={artistName}
                 onChange={this.change.bind(null, "artistName")}
+        
+              />
+
+              <TextField
+                id="image"
+                name="image"
+                helperText={touched.image ? errors.image : ""}
+                error={touched.image && Boolean(errors.image)}
+                label="Image"
+                fullWidth
+                multiline
+                rows="4"
+                value={image}
+                onChange={this.change.bind(null, "image")}
         
               />
         

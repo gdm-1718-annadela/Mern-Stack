@@ -26,6 +26,7 @@ const validationSchema = Yup.object(
     title: Yup.string("Enter a title of the collection").required("Title is required").min(2).max(128),
     body: Yup.string("Enter a text about the collection").required("Body is required").min(20).max(1024),
     artistName: Yup.string("mention the artist").required("Artist name is required").min(4),
+    image: Yup.string("Get a link to a immage source").required("image is required").min(4),
     museumId: Yup.string("Select a museum").required(true),
 });
 
@@ -53,9 +54,9 @@ class CollectionForm extends Component {
     
     state = {
         musea: [],
-        collection: { title: "", body: "", artistName: "", museumId: "", },
+        collection: { title: "", body: "", artistName: "", image: "", museumId: "", },
     };
-loadMusea
+
     componentWillMount() {
         this.loadMusea();
         
@@ -113,12 +114,14 @@ loadMusea
         if (collectionId) {  
             this.updateCollection(collectionId, values);          
         } else {
-            this.updateCollection(values);
+            this.saveCollection(values);
         }
         
     }
 
     saveCollection = async (collectionData) => {
+        console.log('yey');
+        console.log(collectionData)
         try {
             const options = {
                 method: 'POST',

@@ -120,12 +120,7 @@ class Form extends Component {
                     id: 'museumId',
                   }}
                 >
-                  <MenuItem value="">
-                    <em>None</em>
-                  </MenuItem>
-                  {/* {console.log(musea)} */}
                   {musea && musea.map((museum, index) => (
-                    
                     <MenuItem key={museum.id} value={museum.id}>{museum.name}</MenuItem>
                   ))}
                 </Select>

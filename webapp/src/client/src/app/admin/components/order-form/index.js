@@ -149,6 +149,7 @@ class OrderForm extends Component {
     }
 
     updateOrder = async (orderId, orderData) => {
+        console.log(orderData);
         try {
             const options = {
                 method: 'PUT',

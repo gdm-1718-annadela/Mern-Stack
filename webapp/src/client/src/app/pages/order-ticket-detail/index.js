@@ -1,2 +1,2 @@
 import OrderTicketDetailPage from './OrderTicketDetailPage';
-export default OrderTicketDetailPage;
+export default OrderTicketDetailPage

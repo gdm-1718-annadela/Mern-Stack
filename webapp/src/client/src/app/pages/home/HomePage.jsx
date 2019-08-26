@@ -11,34 +11,14 @@ import PostsList from '../../components/posts-list';
 import './Page.scss';
 
 class HomePage extends Component {
-    // state = {
-    //     posts: [],
-    // };
-
-    // componentWillMount() {
-    //     this.loadPosts();
-    // }
-
-    // loadPosts = () => {
-    //     Api.findAllPosts()
-    //         .then((data) => {
-    //             this.setState(prevState => ({
-    //                 ...prevState,
-    //                 posts: data
-    //             }));
-    //         })
-    //         .catch((error) => {
-    //             console.log(error);
-    //         });
-    // }
-
-    // goToPostDetailPage = (id) => {
-    //     this.props.history.push(`/news/${id}`);
-    // }
     render = () => {
         return(
             <React.Fragment>
-                <h1>Name website</h1>
+                <h1 data-glitch="Adventure Point" class="title glitch">ADVENTURE POINT</h1>
+                <p>Blessed are the curious,
+                    for they shall have
+                    adventures</p>
+                <div class="image"></div>
             </React.Fragment>
         )
     }

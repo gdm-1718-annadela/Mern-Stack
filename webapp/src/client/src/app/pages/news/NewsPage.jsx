@@ -61,7 +61,7 @@ class NewsPage extends Component {
         const { pagination, musea } = this.state;
         return (
             <React.Fragment>
-                <h1 className="hidden">Musea</h1>
+                {/* <h1 className="hidden">Musea</h1> */}
                 <section className="section section--overview">
                     <div className="section__content">    
                         <MuseaListPaged musea={musea} pagination={pagination} onReadMore={this.goToMuseumDetailPage} onLoadMore={this.loadMusea} onReadTickets={this.goToTicketsPage}/>

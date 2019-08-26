@@ -8,7 +8,8 @@ const CollectionSchema = new Schema(
     {
         title: { type: String, required: true, max: 128 },
         body: { type: String, required: true },
-        artistName: { type: String, required: false },
+        artistName: { type: String, required: true },
+        image:{ type: String, required: true},
         slug: {
             type: String, lowercase: true, unique: true, required: true,
         },
