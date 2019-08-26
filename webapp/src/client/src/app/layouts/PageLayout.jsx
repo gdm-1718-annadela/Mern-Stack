@@ -18,7 +18,7 @@ class PageLayout extends React.Component {
                             <a href="/home"><li className="nav__item">Home</li></a>
                             <a href="/musea"><li className="nav__item">Musea</li></a>
                             <a href="/collections"><li className="nav__item">Collections</li></a>
-                            <a className="actioncall" href="/order-ticket"><li className="nav__item">Tickets bestellen</li></a>
+                            <a className="order-btn actioncall" href="/order-ticket"><li className="nav__item">Tickets bestellen</li></a>
 
                             {/* <a href="login/local"><li className="nav__item">Login</li></a>
                             <a href="signup/local"><li className="nav__item">Signup</li></a> */}

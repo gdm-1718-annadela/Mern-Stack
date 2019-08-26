@@ -35,6 +35,10 @@ class MuseumDetail extends Component {
             });
     }
 
+    locateCollection(collectionId){
+        window.location.href=`/collections/${collectionId}`
+    }
+
     render() {
         const { data: museum } = this.props;
         const { collections } = this.state;   
@@ -44,11 +48,14 @@ class MuseumDetail extends Component {
                 {museum ? (
                     <article key={ museum.id } className={classNames("museum--large")}>
                         <h1 className="museum__title">{ museum.name }</h1>
-                        <div className="museum__synopsis">{ museum.location }</div>
-                        <div className="museum__synopsis">{ museum.description }</div>
+                        <div className="museum__gegevens">{ museum.location }</div>
+                        <div className="collections__box">
                         { collections && collections.map( (collection, index) => (
-                            collection.museumId === museum.id?<div>{collection.title}</div>:null
+                            collection.museumId === museum.id?<div class="collection__box">
+                            <p>{collection.name}</p><img className="collection_image" src={collection.image} alt="collectie" onClick={(ev) => this.locateCollection(collection.id)}></img>
+                            </div>:null
                         ))}
+                        </div>
                     </article>
                     
                     

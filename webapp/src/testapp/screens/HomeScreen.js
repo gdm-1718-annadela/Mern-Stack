@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button , Image, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, Button , Image, ScrollView, Dimensions  } from 'react-native';
 import api from '../config/api';
 
 
@@ -41,7 +41,9 @@ class HomeScreen extends React.Component {
     render(){
         return (
             <View>
-                <Text>Musea</Text>
+                <View style={styles.header}>
+                <Text style={styles.title}>Musea</Text>
+                </View>
                 {this.renderMusea()}
             <Text>Hi</Text>
             </View>
@@ -53,17 +55,23 @@ class HomeScreen extends React.Component {
 
 export default HomeScreen;
 
+var width = Dimensions.get('window').width; //full width
+var height = Dimensions.get('window').height; //full height
+
 const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      padding: 20,
-      paddingTop: 50,
-      paddingBottom: 0,
+    test: {
+        color: 'red',
     },
-    title: {
-        alignItems: 'center',
-
+    title:{
+        color: 'white',
+    },
+    header: {
+        flex: 1,
+        backgroundColor: '#47054E',
+        height: 200,
+        width: width,
+        overflow: 'hidden',
+        position: 'relative',
+        borderBottomLeftRadius: 20,
     }
-
-    
   });

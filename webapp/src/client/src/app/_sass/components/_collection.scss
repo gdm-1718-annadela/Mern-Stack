@@ -1,0 +1,42 @@
+.collections__box{
+  position: absolute;
+  top: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  left: 0;
+  right: 0;
+  justify-content: space-around;
+}
+
+.collection__box{
+  width: 200px;
+  height: 300px;
+}
+
+.collection__image {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.input__box{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  background-color: rgb(231, 231, 231);
+  align-items: center;
+  z-index: -1;
+}
+
+.input {
+  width: 40vw;
+  display: block; 
+  color: gray;
+  font-family: 'montserat';
+  height: 50px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: transparent;
+  box-shadow: 3px 3px 5px gray; 
+}

@@ -15,7 +15,7 @@ class HomePage extends Component {
         return(
             <React.Fragment>
                 <h1 data-glitch="Adventure Point" class="title glitch">ADVENTURE POINT</h1>
-                <p>Blessed are the curious,
+                <p className="museum__gegevens">Blessed are the curious,
                     for they shall have
                     adventures</p>
                 <div class="image"></div>

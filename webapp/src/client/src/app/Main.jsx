@@ -27,7 +27,6 @@ import OrderTicketPage from './pages/order-ticket';
 import OrderTicketDetailPage from './pages/order-ticket-detail';
 import SignupPage from './pages/signup';
 import CollectionPage from './pages/collections';
-import OrderDetailPage from './pages/order-detail';
 
 
 /*
@@ -51,7 +50,6 @@ class Main extends Component {
           <RouteWithLayout path="/admin" layout={ AdminLayout } component={ AdminPage }></RouteWithLayout>
           <RouteWithLayout path="/signup" layout={ SignupLayout } component={ SignupPage }></RouteWithLayout>
           <RouteWithLayout path="/collections" layout={ PageLayout } component={ CollectionPage }></RouteWithLayout>
-          <RouteWithLayout exact path='/order/:id' layout={ PageLayout } component={ OrderDetailPage }/>
 
 
 

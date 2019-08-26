@@ -38,7 +38,6 @@ class CollectionsPage extends Component {
         const { collections } = this.state;
         return (
             <React.Fragment>
-                <h1 className="hidden">Collection</h1>
                 <section className="section section--overview">
                     <div className="section__content">
                         <CollectionsListPaged collections={collections}/>

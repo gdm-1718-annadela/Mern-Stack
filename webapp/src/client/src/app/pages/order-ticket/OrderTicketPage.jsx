@@ -51,7 +51,7 @@ class OrderTicketPage extends Component {
 
 
         return (
-            <form
+            <form className="input__box"
               onSubmit={(e) => {
                 this.props.handleSubmit(e);
               }}
@@ -59,20 +59,19 @@ class OrderTicketPage extends Component {
           >
                 <TextField
                 id="name"
+                className="input"
                 name="name"
                 label="name"
                 value={name}
                 onChange={this.change.bind(null, "name")}
-                fullWidth
+                
         
               />
               <TextField
                 id="firstname"
                 name="firstname"
                 label="firstname"
-                fullWidth
-                multiline
-                rows="4"
+                className="input"
                 value={firstname}
                 onChange={this.change.bind(null, "firstname")}
         
@@ -82,21 +81,17 @@ class OrderTicketPage extends Component {
                 id="validationCode"
                 name="validationCode"
                 label="validation Code"
-                fullWidth
-                multiline
-                rows="10"
+                className="input"
                 value={validationCode}
                 onChange={this.change.bind(null, "validationCode")}
         
               />
 
               <TextField
+                className="input"
                 id="amount"
                 name="amount"
                 label="amount"
-                fullWidth
-                multiline
-                rows="10"
                 value={amount}
                 onChange={this.change.bind(null, "amount")}
         
@@ -105,6 +100,7 @@ class OrderTicketPage extends Component {
               <FormControl>
                 <InputLabel htmlFor="museumId">Museum</InputLabel>
                 <Select
+                  className="input"
                   value={museumId}
                   onChange={this.change.bind(null, "museum")}
                   inputProps={{
@@ -119,12 +115,11 @@ class OrderTicketPage extends Component {
               </FormControl>
 
               <Button
+              className="input"
                 type="submit"
-                fullWidth
                 variant="contained"
                 color="primary"
                 disabled={!isValid}
-                // onClick={this.redirectToTarget}
                 >
                 Submit
               </Button>

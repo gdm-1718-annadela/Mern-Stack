@@ -1,28 +1,17 @@
-.actioncall {
-    border: solid black 1px;
-    position: absolute;
-    right: 5vw;
-    > li {
-        color: black;
-    }
-}
 
 .nav {
     // background-color: $blue_color;
+    display: flex;
+    justify-content: flex-end;
 
     > ul {
         display: flex;
         list-style-type: none;
         margin: 0;
-        background-color: transparent;
         justify-content: space-between;
-        width: 50vw;
         margin-top: 20px;
         animation: mymove 2s;
-
-        :hover{
-            color: blue;
-        }
+        width: 50vw;
 
 
         > a {

@@ -13,24 +13,36 @@ Import internal libraries
 import Api from '../../services';
 
 class OrderTicketDetailPage extends Component {
-    state = {
-        order: null,
-        collections: [],
-    };
+    constructor (props) {
+        super (props);
+        this.state={
+            name: "",
+            firstname: "",
+            validationCode: "", 
+            amount: "",
+            museumId: "",
+            museum: null,
+            collections: [],
+        }
+
+        this.handleFormSubmit = this.handleFormSubmit.bind(this);
+        this.handleChange = this.handleChange.bind(this);
+    }
+
 
     componentWillMount() {
-        this.loadOrder(this.props.match.params.id);
-        this.loadCollection();
+        this.loadMuseum(this.props.match.params.id);
 
     }
 
-    loadOrder = (id) => {
-        Api.findOneOrder(id)
+    loadMuseum = (id) => {
+        Api.findOnePost(id)
             .then((data) => {
-                console.log(data)
+                console.log(data['id'])
                 this.setState(prevState => ({
                     ...prevState,
-                    order: data
+                    museum: data,
+                    museumId: data['id'],
                 }));
             })
             .catch((error) => {
@@ -38,34 +50,58 @@ class OrderTicketDetailPage extends Component {
             });
     }
 
-    loadCollection = () => {
-        Api.findAllCollections()
-            .then((data) => {
-                this.setState(prevState => ({
-                    ...prevState,
-                    collections: data,
-                    }),
-                );
-            })
-            .catch((error) => {
-                console.log(error);
-            });
+    handleChange(e) {
+        this.setState({
+            [e.target.name]:e.target.value
+        });
     }
 
+    handleFormSubmit(e) {
+        e.preventDefault();
+        let orderData = this.state;
+        console.log( orderData);
+    
+        fetch('/api/v1/order',{
+            method: "POST",
+            body: JSON.stringify(orderData),
+            headers: {
+              'Accept': 'application/json',
+              'Content-Type': 'application/json'
+            },
+          }).then(response => {
+            response.json().then(data =>{
+              console.log("Successful" + data);
+              window.location.href=`/home`
+            })
+        })
+    }
+
+    // valueMusea(id) {
+    //     // this.setState({
+    //     //     museumId: id,
+    //     // })
+    //     console.log(id)
+    // }
     
     render() {
-        const { collections } = this.state;
-        const order = this.state;
-        console.log(order)
-
+        const { museum } = this.state;
         return (
+            <React.Fragment>
+            {museum ? (
             <article>
-            <h1>Test</h1>
-            {collections && collections.map( (collection, index) => (
-                console.log('test' + collection.museumId)
-                // collection.museumId === order.museumId?<div>{collection.title}</div>:null
-            ))}
+               {/* <h1>Ticket voor: {museum.name}</h1> */}
+               {console.log(museum.id)}
+               <form className="input__box" onSubmit={this.handleFormSubmit.bind(this)}>
+                    <input className="input" value={this.state.name} type="tekst" placeholder="name" name="name" onChange={this.handleChange.bind(this)}/>
+                    <input className="input" value={this.state.firstname} type="tekst" placeholder="firstname" name="firstname" onChange={this.handleChange.bind(this)}/>
+                    <input className="input" value={this.state.validationCode} type="text" placeholder="validationCode" name="validationCode" onChange={this.handleChange.bind(this)}/>
+                    <input className="input" value={this.state.amount} type="number" placeholder="amount" name="amount" onChange={this.handleChange.bind(this)}/>
+                    <input  className="order-btn" type="submit" value="Submit" />
+                </form>
             </article>
+            ): '<p>LOADING</p>'}
+            </React.Fragment>
+            
         )
     }
 }

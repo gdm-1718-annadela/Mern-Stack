@@ -1,34 +1,103 @@
 .card {
   width: 400px;
+  height: 500px;
   margin-bottom: 50px;
-  background-color: white;
   color: $font-color;
+  position: relative;
+  border-radius: 10px;
+  margin: 500 10px;
 
   -webkit-box-shadow: 0 10px 6px -6px #777;
 	-moz-box-shadow: 0 10px 6px -6px #777;
 	box-shadow: 0 10px 6px -6px #777;
 
-  &__title {
-    margin-top: -10 px;
-  }
   &__image {
+    height:500px;
+    width: 400px;
+    object-fit: cover;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 10px;
+
+  }
+  &__btns{
+    display: flex;
+  }
+.card__btn {
+  transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+}
+}
+
+.card__title{
+  color: black;
+}
+
+.card__content:hover .card__image {
+    opacity: 0.3;
+  }
+  
+.card__content:hover .card__btn {
+    opacity: 1;
+  }
+
+  .order-btn{
+    border: 1px solid black;
+    background: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    width: 160px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    color: black;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    color:black;
+    z-index: 5;
+  }
+  
+  .order-btn:hover {
+    color: white;
+  }
+  
+  .order-btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
     width: 100%;
+    height: 0%;
+    background: black;
+    z-index: -1;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+    transition: 0.8s;
+  
   }
-  &__content {
-    margin: 15px;
-    padding: 15px;
+  
+  .order-btn:hover::before{
+    height: 180%;
+  }
 
-  }
-  &__description {
-    overflow-y: scroll;
-    height: 100px;
-  }
-  &__btn {
-    background-color: $main-color;
 
-    > a {
-      text-decoration: none;
-      color: $background_color;
-    }
-  }
+.section__content{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card__long{
+  height: 200px;
+  overflow: auto ;
+  width: 350;
 }

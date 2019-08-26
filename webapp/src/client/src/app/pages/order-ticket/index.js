@@ -112,7 +112,7 @@ saveOrder = async (orderData) => {
         if (responseJson) {
             console.log(responseJson);
             console.log(responseJson['id'])
-            window.location.href=`/order/${responseJson['id']}`
+            window.location.href=`/home`
         }
     } catch(error) {
         console.log(error);
